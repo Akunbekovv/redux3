@@ -1,0 +1,38 @@
+.buttons {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 200px auto;
+}
+.plus { 
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    transition: .3s;
+}
+.plus:hover {
+    transform: scale(1.5);
+}
+.plus:active {
+    background-color: greenyellow;
+}
+.minus {
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    transition: .3s;
+}
+.minus:hover{
+    transform: scale(1.5);
+}
+.minus:active{
+    background-color: darkred;
+}
